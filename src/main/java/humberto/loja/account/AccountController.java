@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(name = "spkio-account")
+@FeignClient(name = "store-account")
 public interface AccountController {
 
     @PostMapping("/accounts")
